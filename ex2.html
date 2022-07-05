@@ -1,0 +1,19 @@
+<!--Crie uma página web com um link que, quando o maouse passar sobre o link, a ahora deve ser apresentada na página.
+Quando o mesmo link for clicado, apresente um alert.-->
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <script>
+            function imprimirdata(){
+                document.getElementById("demo").innerHTML= new Date().toLocaleString("pt-BR");
+            }
+            function alertardata(){
+                alert(document.getElementById("demo").innerHTML= new Date().toLocaleString("pt-BR"));
+            }
+        </script>
+    </head>
+    <body>
+        <a href="#" onmouseenter="imprimirdata();" onclick="alertardata();">Imprimir Data e Hora</a>
+        <p id="demo"></p>
+    </body>
+</hmtl>

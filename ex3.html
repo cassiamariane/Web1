@@ -1,0 +1,55 @@
+<!--Crie Funções para:
+1- Calcular a sequência de Fibonacci dado um valor máximo;
+2- Calcular todos os números perfeitos em um intervalo (valor de início e fim)
+3- Identificar se um número é primo;
+4- Calcular o fatorial de um número inteiro;
+5- Dado três valores de comprimentos de retas, verificar se as mesmas podem formar um triângulo (se sim, qual tipo de triângulo);
+6- Multiplicar duas matrizes 3x3;
+7- Verificar se um número de CPF é válido-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Funções</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='ex3.js'></script>
+</head>
+<body>
+    Valor máximo: <input id="n" type="number">
+    <button onclick="fibonacci()">Calcular Fibonacci</button><br />
+    <div id='resultadofibonacci'></div>
+    <br>
+
+    Valor inicial para o intervalo: <input id="ni" type="number">
+    Valor final: <input id="nf" type="number">
+    <button onclick="perfeito()">Números Perfeitos</button><br />
+    <div id='resultadoperfeito'></div>
+    <br>
+
+    Número: <input id="n2" type="number">
+    <button onclick="primo()">Verificar se é primo</button><br />
+    <div id='resultadoprimo'></div>
+    <br>
+
+    Número: <input id="n3" type="number">
+    <button onclick="fatorial()">Calcular Fatorial</button><br />
+    <div id='resultadofat'></div>
+    <br>
+
+    Valor do primeiro lado:<input id="i" type="number">
+    Valor do segundo lado:<input id="j" type="number">
+    Valor do terceiro lado:<input id="k" type="number">
+    <button onclick="triangulo()">Verificar se forma um triângulo</button><br />
+    <div id='resultadotriangulo'></div>
+    <br>
+
+    <button onclick="mutimatriz()">Multiplicar Matrizes</button><br />
+    <div id='resultadomatriz'></div>
+    <br>
+    
+    <input id="cpf" placeholder="CPF: ***.***.***-**" maxlength="14"/>
+    <button onclick="mascara_cpf();">Enviar</button>
+    <div id='resultadocpf'></div>
+</body>
+</html>
