@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Web 1</title>
+        <style>
+            .alterar{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titulo">WEB 1</h1>
+        <script>
+            var ativo = false;
+            var h1 = document.getElementById("titulo");
+            function mudaAtivo(){
+                ativo = true;
+            }
+            function mudaCor(){
+                if(ativo){
+                    h1.innerHTML = "Cássia";
+                    h1.className = "alterar";
+                }
+            }
+            titulo.addEventListener("click", mudaAtivo);
+            titulo.addEventListener("mouseenter", mudaCor);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+1- Crie uma página que contenha um título escrito "Web 1". Crie uma função para mudar o texto classe título ao click do botão sobre ele. O novo texto deverá ser o seu nome.
+2- Usando a mesma página do exercício anterior, mude a função criada. Faça com que, após o click no título um novo tratamento de evento seja atribuído ao título: ao passar o mouse sobre título, seu background deve passar a ser preto e a cor da letra branca.
+3- Use "navigator.cookie.Enabled" para verificar se os cookies estão habilitados no navegador. Então, use uma imagem para:
+a) Quando o mouse não estiver sobre a imagem, a mensagem "coloque o mouse sobre mim" deverá ser apresentada.
+b) Quando o mouse estiver sobre a imagem, a mensagem da questão deve ser substituída pela informação se os cookies estão ou não habilitados no navegador.
+4- Faça uma cópia da questão 2. Mude-a para usar o addEventListener(veja o slide 18 do material sobre DOM).
+5- Reproduza os códigos de criação, alteração e exclusão de elementos HTML. Depois faça o mesmo sem usar as funções indicadas.
+Extra: Instale o XAMPP na sua máquina pessoal. Rode os serviços do XAMPP e acesse a página "phpmyadmin.php" no seu navgador em localhost.

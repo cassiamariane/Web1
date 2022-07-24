@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Cookies</title>
+    </head>
+    <body>
+        <h1 id="mensagem">Clique na imagem</h1>
+        <img id ="imagem" onclick ="mudaMensagem()" src="cookies.jpg">
+        <script>
+            var h1 = document.getElementById("mensagem");
+            var cookies = navigator.cookieEnabled;
+            function mudaMensagem(){
+                if(cookies){
+                    h1.innerHTML = "Os cookies foram ativados para essa página!";
+                }else{
+                    h1.innerHTML = "Os cookies não foram ativados para essa página!";
+                } 
+            }
+        </script>
+    </body>
+</html>
